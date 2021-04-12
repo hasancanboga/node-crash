@@ -1,7 +1,7 @@
 const http = require('http')
 
 const server = http.createServer((req, res) => {
-    
+
     // routes
     // in the real world you dont use this, you use express.
     // because this gets too complex as you add more routes
@@ -11,8 +11,8 @@ const server = http.createServer((req, res) => {
         res.end()
     }
 
-    if(req.url == '/api/courses'){
-        
+    if (req.url == '/api/courses') {
+
         var result = {
             asd: "qwe",
             xcv: 3

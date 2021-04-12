@@ -12,4 +12,4 @@ emitter.emit('messageLogged', { id: 1, url: 'http://' })
 
 emitter.on('log', e => console.log('Logging', e.message))
 
-emitter.emit('log', {message: 'qweqwe'})
+emitter.emit('log', { message: 'qweqwe' })
